@@ -1,0 +1,56 @@
+body {
+    background-color: #2e0b73;
+	color: #b290f5;
+	font-family: Tahoma;
+}
+
+form {
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #200a4d;
+	border-color: #b290f5;
+	min-width: 300px;
+	color: #b290f5
+}
+
+.titledesc {
+	font-style: italic;
+}
+
+fieldset {
+	padding-top: 12px;
+	text-align: center;
+	padding: 2rem 0;
+	border: none;
+	border-bottom: 3px solid #200a4d;
+}
+
+fieldset:first-of-type {
+	border-top: 3px solid #200a4d;
+}
+
+.inline {
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}
+
+.title {
+	
+}
+
+.titlecard {
+	font-family: Tahoma;
+	text-align: center;
+}
