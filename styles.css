@@ -1,56 +1,64 @@
-body {
-    background-color: #2e0b73;
-	color: #b290f5;
-	font-family: Tahoma;
-}
-
-form {
-	width: 60vw;
-	max-width: 500px;
-	min-width: 300px;
-	margin: 0 auto;
-	padding-bottom: 2em;
-}
-
-input[type="submit"] {
-	display: block;
-	width: 60%;
-	margin: 1em auto;
-	height: 2em;
-	font-size: 1.1rem;
-	background-color: #200a4d;
-	border-color: #b290f5;
-	min-width: 300px;
-	color: #b290f5
-}
-
-.titledesc {
-	font-style: italic;
-}
-
 fieldset {
-	padding-top: 12px;
+	background-color: #3d1078;
+	border: 5px solid black;
+	max-width: 500px;
+	margin: 20px auto;
+	font-family: Tahoma;
+	color: plum;
+	box-shadow: 5px 5px black;
+	border-radius: 25px
+}
+
+body {
+	background-image: url(gallery/003.jpg);
+}
+
+p {
+	font-family: Tahoma;
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+a:visited {
+	color: plum;
+}
+
+a:link {
+        color:plum;
+}
+
+.bubble {
+	background-color: indigo;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.title-intro {
+	font-style: italic;
+	padding-top: 40px;
+	color: white;
+}
+
+.header {
 	text-align: center;
-	padding: 2rem 0;
-	border: none;
-	border-bottom: 3px solid #200a4d;
-}
-
-fieldset:first-of-type {
-	border-top: 3px solid #200a4d;
-}
-
-.inline {
-	width: unset;
-	margin: 0 0.5em 0 0;
-	vertical-align: middle;
+	background-color: indigo;
+	margin: auto;
+	border-radius: 25px;
+	border-top: 15px;
+	border-bottom: 15px;
+	border-color: indigo;
 }
 
 .title {
-	
+        font-size: 40px;
+	padding-top: 0;
 }
 
-.titlecard {
-	font-family: Tahoma;
-	text-align: center;
+.subtitle {
+	font-style: italic;
+	padding-bottom: 40px;
+	color: white;
 }
